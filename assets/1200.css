@@ -1,0 +1,309 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 6%;
+    /* background-color: rgb(255, 0, 179); */
+    position: fixed;
+    position: -webkit-sticky;
+    top: 0 !important;
+    width: 100%;
+  }
+
+  .logo img {
+    width: 100px;
+    object-fit: contain;
+  }
+
+  .btn-forbusines {
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 100px;
+    padding: 12px 24px;
+    color: #fbc02d;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-forbusines:hover {
+    background-color: #5b20fa;
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 100px;
+    padding: 12px 24px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner {
+    width: 100%;
+    height: 700px;
+    background-image: url(./images/bannerlogo.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .banner .content {
+    padding: 24px;
+  }
+
+  .banner-content {
+    /* background-color: aqua; */
+    width: 50%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content p:nth-child(2) {
+    width: 80%;
+  }
+
+  .banner-content .content {
+    /* background-color: aqua;
+  width: 50%;
+  height: 800px; */
+  }
+
+  .banner h1 {
+    font-size: 42px;
+    margin-bottom: 12px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .banner h1 span {
+    color: #fac02d;
+  }
+
+  .banner p {
+    font-size: 18px;
+    margin-bottom: 12px;
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 12px;
+  }
+
+  .link-download {
+    padding-top: 16px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .link-download .google-play img {
+    width: 200px;
+    margin-right: 16px;
+  }
+
+  .link-download .app-store img {
+    width: 180px;
+  }
+
+  .banner-logo {
+    position: absolute;
+    top: -70px;
+    right: 0;
+    width: 500px;
+    z-index: 0;
+  }
+
+  .fitur {
+    display: flex;
+    /* align-items: flex-start; */
+    align-items: center;
+    justify-content: center;
+    padding-top: 110px;
+  }
+
+  .mockup img {
+    width: 360px;
+    padding-right: 72px;
+  }
+
+  .detail-f {
+    width: 45%;
+  }
+
+  .detail-f .title {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 14px 0;
+  }
+
+  .detail-f .content-fitur {
+    margin-bottom: 12px;
+  }
+  .detail-f .title h1 {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+
+  .detail-f .title p:nth-child(1) {
+    background-color: #fac02d;
+    padding: 8px 20px;
+    border-radius: 100px;
+  }
+  .detail-f .title p:nth-child(3) {
+    font-weight: 900;
+    font-size: 16px;
+  }
+
+  .title-content-fitur {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title-content-fitur:hover {
+    display: flex;
+    justify-content: space-between;
+    color: #fac02d;
+  }
+
+  .content-fitur {
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 14px;
+  }
+
+  .content-fitur:hover {
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 14px;
+    cursor: pointer;
+  }
+
+  .title-content-fitur {
+    padding-bottom: 14px;
+    padding-top: 14px;
+  }
+
+  .footer {
+    margin-top: 210px;
+    background-color: #272d3c;
+    color: #dcd6d6;
+    padding: 32px;
+  }
+
+  .footer .content-footer {
+    display: flex;
+  }
+
+  .footer .content-footer .about-yelow-f {
+    width: 25%;
+    padding: 0px 45px;
+  }
+  .footer .content-footer .about-yelow-f img {
+    width: 160px;
+    padding-bottom: 12px;
+  }
+
+  .footer .content-footer .about-yelow-f p {
+    font-weight: 100;
+  }
+  .footer .content-footer .info-footer {
+    width: 25%;
+    padding: 0px 45px;
+  }
+  .footer .content-footer .info-footer h5 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  .footer .content-footer .info-footer p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .footer .content-footer .info-footer p:last-child {
+    font-size: 14px;
+    margin-bottom: 6px;
+    padding-top: 12px;
+  }
+  .footer .content-footer .support-footer h5 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .footer .content-footer .support-footer p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .footer .content-footer .support-footer p:hover {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #fac02d;
+    cursor: pointer;
+  }
+
+  .footer .content-footer .support-footer {
+    width: 25%;
+    padding: 0px 45px;
+  }
+
+  .footer .content-footer .download-footer {
+    width: 25%;
+    padding: 0px 45px;
+  }
+  .footer .content-footer .download-footer h5 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  .footer .content-footer .download-footer .link-download-foot {
+    margin-bottom: 12px;
+    display: flex;
+  }
+  .footer .content-footer .download-footer .link-download-foot a {
+    text-decoration: none;
+  }
+  .footer
+    .content-footer
+    .download-footer
+    .link-download-foot
+    .google-play
+    img {
+    width: 125px;
+    margin-right: 12px;
+  }
+  .footer .content-footer .download-footer .link-download-foot .app-store img {
+    width: 115px;
+  }
+
+  .footer .content-footer .download-footer .social-med {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer .content-footer .download-footer .social-med a {
+    text-decoration: none;
+  }
+
+  .footer .content-footer .download-footer .social-med .facebook img {
+    width: 50px;
+    margin-right: 12px;
+  }
+  .footer .content-footer .download-footer .social-med .instagram img {
+    width: 50px;
+    margin-right: 12px;
+  }
+  .footer .content-footer .download-footer .social-med .youtube img {
+    width: 50px;
+    margin-right: 12px;
+  }
+}
