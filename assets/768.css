@@ -1,5 +1,4 @@
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
   * {
     padding: 0;
     margin: 0;
@@ -49,9 +48,9 @@
   }
   .banner {
     width: 100%;
-    height: 700px;
+    height: 400px;
     background-image: url(./images/bannerlogo.png);
-    background-size: 700px;
+    background-size: 400px;
     background-repeat: no-repeat;
     background-position: right;
   }
@@ -63,7 +62,7 @@
   .banner-content {
     /* background-color: aqua; */
     width: 50%;
-    height: 800px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +79,7 @@
   }
 
   .banner h1 {
-    font-size: 42px;
+    font-size: 24px;
     margin-bottom: 12px;
     width: 80%;
     margin: 0 auto;
@@ -93,7 +92,7 @@
   }
 
   .banner p {
-    font-size: 18px;
+    font-size: 12px;
     margin-bottom: 12px;
     margin: 0 auto;
     width: 80%;
@@ -108,12 +107,12 @@
   }
 
   .link-download .google-play img {
-    width: 200px;
+    width: 160px;
     margin-right: 16px;
   }
 
   .link-download .app-store img {
-    width: 180px;
+    width: 140px;
   }
 
   .banner-logo {
@@ -208,8 +207,8 @@
   }
 
   .footer .content-footer .about-yelow-f {
-    width: 25%;
-    padding: 0px 45px;
+    width: 100%;
+    padding: 0px 20px;
   }
   .footer .content-footer .about-yelow-f img {
     width: 160px;
@@ -218,35 +217,36 @@
 
   .footer .content-footer .about-yelow-f p {
     font-weight: 100;
+    font-size: 12px;
   }
   .footer .content-footer .info-footer {
-    width: 25%;
-    padding: 0px 45px;
+    width: 100%;
+    padding: 0px 0px;
   }
   .footer .content-footer .info-footer h5 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 12px;
   }
   .footer .content-footer .info-footer p {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 8px;
   }
   .footer .content-footer .info-footer p:last-child {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 6px;
     padding-top: 12px;
   }
   .footer .content-footer .support-footer h5 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 12px;
   }
 
   .footer .content-footer .support-footer p {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 8px;
   }
   .footer .content-footer .support-footer p:hover {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 8px;
     color: #fac02d;
     cursor: pointer;
@@ -254,20 +254,21 @@
 
   .footer .content-footer .support-footer {
     width: 25%;
-    padding: 0px 45px;
+    padding: 0px 20px;
   }
 
   .footer .content-footer .download-footer {
-    width: 25%;
-    padding: 0px 45px;
+    width: 100%;
+    padding: 0px 20px;
   }
   .footer .content-footer .download-footer h5 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 12px;
   }
   .footer .content-footer .download-footer .link-download-foot {
     margin-bottom: 12px;
     display: flex;
+    flex-direction: column;
   }
   .footer .content-footer .download-footer .link-download-foot a {
     text-decoration: none;

@@ -207,7 +207,7 @@
 
   .footer .content-footer .about-yelow-f {
     width: 25%;
-    padding: 0px 45px;
+    padding: 0px 24px;
   }
   .footer .content-footer .about-yelow-f img {
     width: 160px;
@@ -219,7 +219,7 @@
   }
   .footer .content-footer .info-footer {
     width: 25%;
-    padding: 0px 45px;
+    padding: 0px 24px;
   }
   .footer .content-footer .info-footer h5 {
     font-size: 18px;
@@ -251,13 +251,13 @@
   }
 
   .footer .content-footer .support-footer {
-    width: 25%;
-    padding: 0px 45px;
+    width: 20%;
+    padding: 0px 24px;
   }
 
   .footer .content-footer .download-footer {
     width: 25%;
-    padding: 0px 45px;
+    padding: 0px 24px;
   }
   .footer .content-footer .download-footer h5 {
     font-size: 18px;
